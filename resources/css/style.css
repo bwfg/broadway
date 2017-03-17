@@ -4,7 +4,7 @@ body {
 
 .background-image, .design-ny {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
-  align-items: left;
+  background-size: cover;
   }
 
 h1 {
@@ -26,6 +26,8 @@ nav a {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
+  font-weight: bold;
+  display: list-item;
 }
 
 h2 {
